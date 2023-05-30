@@ -43,7 +43,7 @@ html,body {
 }
 
 .header--bg{
-    background: url("../../assets/images/header-background.png") top center no-repeat;
+    background: url("../../assets/images/darkblue-background.jpg") top center no-repeat;
     background-size: cover;
   }
 
@@ -269,7 +269,8 @@ html,body {
     }
 
 .team--bg{
-    background-color: #32DBD7;
+  background: url("../../assets/images/darkblue-background.jpg") top center no-repeat;
+  background-size: cover;
   }
 
 #teamCarousel{
@@ -330,6 +331,71 @@ html,body {
   }
 
   #teamCarousel .carousel-control-right__img{
+    position: relative;
+    right: -56px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#teamCarousel1{
+  padding-top: 30px;
+
+}
+
+#teamCarousel1 .carousel-control.left, #teamCarousel1 .carousel-control.right{
+    background: none !important;
+    -webkit-filter: progid:none !important;
+            filter: progid:none !important;
+    opacity: 1;
+  }
+
+#teamCarousel1 .item img{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+#teamCarousel1 .item .carousel-caption{
+    top: 12px;
+  }
+
+#teamCarousel1 .carousel-caption__name{
+    font-size: 20px;
+    color: #061e37;
+    text-shadow: none;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+#teamCarousel1 .carousel-caption__title{
+    font-size: 15px;
+    color: #061e37;
+    text-shadow: none;
+  }
+
+#teamCarousel1 .carousel-caption__paragraph{
+    font-size: 15px;
+    color: #061e37;
+    max-width: 500px;
+    text-shadow: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+#teamCarousel1 .carousel-control{
+    top: 46%;
+    color: #fff !important;
+  }
+
+@media screen and (max-width: 980px){
+  #teamCarousel1 .carousel-control-left__img{
+    position: relative;
+    left: -56px;
+    width: 50px;
+    height: 50px;
+  }
+
+  #teamCarousel1 .carousel-control-right__img{
     position: relative;
     right: -56px;
     width: 50px;

@@ -434,7 +434,7 @@ html,body {
 
   @media screen and (max-width: 980px){
     .background-carusel {
-      height: 500px !important; /* Allow image to shrink/grow */
+      height: 700px !important; /* Allow image to shrink/grow */
     }
   }
   

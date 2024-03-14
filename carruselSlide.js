@@ -1,4 +1,5 @@
 var screenWidth = window.innerWidth;
+
 $(".carouselExperience").swipe({
 
   swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
